@@ -13,5 +13,5 @@ for elem in c:
 biggest_num = 0
 for elem in biggest_num_field:
     biggest_num += elem
-print (f"Größte Numer = {biggest_num}") 
+print (f"Biggest Number = {biggest_num}") 
     

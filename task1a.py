@@ -8,6 +8,6 @@ for elem in c:
     else:
         if curr_num > biggest_num: biggest_num = curr_num
         curr_num = 0
-print (f"Größte Numer = {biggest_num}") 
+print (f"Biggest number = {biggest_num}") 
     
 
