@@ -1,6 +1,6 @@
 import utils.utils as utils
 
-c = utils.read_file("files/task1a.txt")
+c = utils.read_file("files/task1.txt")
 biggest_num = 0
 curr_num = 0
 for elem in c:
@@ -10,4 +10,3 @@ for elem in c:
         curr_num = 0
 print (f"Biggest number = {biggest_num}") 
     
-
