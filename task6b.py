@@ -5,7 +5,7 @@ def check_unique(s):
             if (m != n) and (s[m] == s[n]): 
                 unique = False
                 break
-        if unique == False: break
+        if not unique: break
     return unique    
 
 f = open("files/task6.txt","r")
