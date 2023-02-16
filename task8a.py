@@ -1,7 +1,6 @@
 import utils.utils as utils
 
 c = utils.read_file("files/task8.txt")
-#print(c)
 visibility_list =[]
 for list in c:
     row =[]
