@@ -5,7 +5,6 @@ x = 1
 step = 20
 step_40 = 0
 s_strenght = 0
-print(prog)
 for elem in prog:
     if elem[0] == "noop": step += 1
     if elem[0] == "addx": step += 2
