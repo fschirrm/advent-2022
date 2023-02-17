@@ -1,8 +1,6 @@
 import utils.utils as utils
 
 moves = utils.read_file("files/task9.txt")
-# print(moves)
-
 field =[[False for x in range(2000)] for y in range(2000) ]
 field[1000][1000] = True
 h = [1000, 1000]
@@ -32,5 +30,4 @@ number = 0
 for list in field:
     for elem in list:
         if elem: number += 1
-
 print(f"number of fields: {number}")
