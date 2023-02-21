@@ -21,7 +21,6 @@ for line in c:
         if line[1] == "true:": monkey[2][1] = int(line[5])
         if line[1] == "false:": monkey[2][2] = int(line[5])
 monkey_list.append(monkey)
-#print(monkey_list)
 
 for i in range(rounds):
     for monkey in monkey_list:
@@ -37,8 +36,7 @@ for i in range(rounds):
             if new_item % monkey[2][0] == 0: monkey_list[monkey[2][1]][0].append(new_item)
             else:  monkey_list[monkey[2][2]][0].append(new_item)
         monkey[0] = []
-#print()
-#print(monkey_list)
+
 monkey_list.sort(key=lambda x: x[3], reverse=True)
 business = monkey_list[0][3] * monkey_list[1][3]
 print(f"business level: {business}")
