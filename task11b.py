@@ -45,7 +45,6 @@ for i in range(rounds):
             if item[j] == 0: monkey_list[monkey_list[j][2][1]][0].append(item)
             else:  monkey_list[monkey_list[j][2][2]][0].append(item)
         monkey_list[j][0] = []
-    #if i % 50 == 0: print(i)
 monkey_list.sort(key=lambda x: x[3], reverse=True)
 business = monkey_list[0][3] * monkey_list[1][3]
 print(f"business level: {business}")
